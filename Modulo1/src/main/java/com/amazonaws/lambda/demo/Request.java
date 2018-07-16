@@ -8,19 +8,19 @@ public class Request {
 	private float[] bdi;
 	private int[] weights;
 	private long[] minimumMemory;
-	private MRC[] mrc;
+	private Point[] mrc;
 	
-    public Request(long totalMemory, int[] frequency, float[] cdi, float[] bdi, int[] weights, long[] minimumMemory,
-    		MRC[] mrc) {
-		super();
-		this.totalMemory = totalMemory;
-		this.frequency = frequency;
-		this.cdi = cdi;
-		this.bdi = bdi;
-		this.weights = weights;
-		this.minimumMemory = minimumMemory;
-		this.mrc = mrc;
-	}
+//    public Request(long totalMemory, int[] frequency, float[] cdi, float[] bdi, int[] weights, long[] minimumMemory,
+//    		MRC[] mrc) {
+//		super();
+//		this.totalMemory = totalMemory;
+//		this.frequency = frequency;
+//		this.cdi = cdi;
+//		this.bdi = bdi;
+//		this.weights = weights;
+//		this.minimumMemory = minimumMemory;
+//		this.mrc = mrc;
+//	}
 //    public Request(long totalMemory, int[] frequency, float[] cdi, float[] bdi, int[] weights, long[] minimumMemory) {
 //		super();
 //		this.totalMemory = totalMemory;
@@ -30,6 +30,17 @@ public class Request {
 //		this.weights = weights;
 //		this.minimumMemory = minimumMemory;
 //	}
+    public Request(long totalMemory, int[] frequency, float[] cdi, float[] bdi, int[] weights, long[] minimumMemory,
+    		Point[] mrc) {
+		super();
+		this.totalMemory = totalMemory;
+		this.frequency = frequency;
+		this.cdi = cdi;
+		this.bdi = bdi;
+		this.weights = weights;
+		this.minimumMemory = minimumMemory;
+		this.mrc = mrc;
+	}
 
 
 	public Request() {
@@ -97,14 +108,27 @@ public class Request {
 	}
 
 
-	public MRC[] getMrc() {
+	public Point[] getMrc() {
 		return mrc;
 	}
 
 
-	public void setMrc(MRC[] mrc) {
+	public void setMrc(Point[] mrc) {
 		this.mrc = mrc;
 	}
+
+
+//	public MRC[] getMrc() {
+//		return mrc;
+//	}
+//
+//
+//	public void setMrc(MRC[] mrc) {
+//		this.mrc = mrc;
+//	}
+	
+
+
 	
 	
 	

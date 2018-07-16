@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.amazonaws.lambda.demo.LambdaFunctionHandlerTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.084 sec <<< FAILURE!
-testLambdaFunctionHandler(com.amazonaws.lambda.demo.LambdaFunctionHandlerTest)  Time elapsed: 0.014 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.123 sec <<< FAILURE!
+testLambdaFunctionHandler(com.amazonaws.lambda.demo.LambdaFunctionHandlerTest)  Time elapsed: 0.013 sec  <<< ERROR!
 java.lang.NullPointerException
 	at com.amazonaws.lambda.demo.LambdaFunctionHandler.handleRequest(LambdaFunctionHandler.java:12)
 	at com.amazonaws.lambda.demo.LambdaFunctionHandlerTest.testLambdaFunctionHandler(LambdaFunctionHandlerTest.java:38)
